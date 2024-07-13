@@ -1,0 +1,92 @@
+/* Weather.css */
+
+.weather-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clear-bg {
+    background-image: url('./images/clear_sky.jpg');
+    background-size: cover;
+  }
+  
+  .cloudy-bg {
+    background-image: url('./images/cloudy.jpg');
+    background-size: cover;
+  }
+  
+  .rainy-bg {
+    background-image: url('./images/rainy.jpg');
+    background-size: cover;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-info h2 {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .weather-icon {
+    margin-bottom: 10px;
+    font-size: 3rem;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9rem;
+  }
+  
+  .forecast-container {
+    margin-top: 20px;
+  }
+  
+  .forecast {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .forecast-item {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .forecast-icon {
+    font-size: 2rem;
+  }
+  
